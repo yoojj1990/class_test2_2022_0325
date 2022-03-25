@@ -6,9 +6,10 @@ public class Div {
 	int y;
 	double sum;
 	
-	public Div(int x, int y) {
+	public void setValue(int x, int y) {
 		
-		sum = (double)x / (double)y;
+		this.x = x;
+		this.y = y;
 		
 	}
 

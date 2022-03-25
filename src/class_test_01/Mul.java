@@ -7,9 +7,10 @@ public class Mul {
 	int y;
 	int sum;
 	
-	public Mul(int x, int y) {
+	public void setValue(int x, int y) {
 		
-		sum = x * y;
+		this.x = x;
+		this.y = y;
 		
 	}
 

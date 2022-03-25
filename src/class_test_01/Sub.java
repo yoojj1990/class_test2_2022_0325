@@ -6,9 +6,10 @@ public class Sub {
 	int y;
 	int sum;
 	
-	public Sub(int x, int y) {
+	public void setValue(int x, int y) {
 		
-		sum = x - y;
+		this.x = x;
+		this.y = y;
 		
 	}
 
