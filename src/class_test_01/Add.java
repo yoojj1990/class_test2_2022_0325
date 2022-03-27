@@ -13,6 +13,14 @@ public class Add {
 		
 	}
 	
+	public int calculate() {
+		
+		sum = x + y;
+		
+		System.out.println(sum);
+		
+		return calculate();
+	}
 	
 
 }

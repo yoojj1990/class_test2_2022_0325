@@ -12,5 +12,14 @@ public class Div {
 		this.y = y;
 		
 	}
-
+	
+	public double calculate() {
+		
+		sum = (double)x / (double)y;
+		
+		System.out.print(sum);
+		
+		return calculate();
+	}
+	
 }

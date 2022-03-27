@@ -16,7 +16,46 @@ public class Test3_2022_0325 {
 		
 		
 		
+		if(c=='+') {
+			
+			Add add = new Add();
+			
+			add.setValue(x, y);
+			add.calculate();
+			
+		}
 		
+		else if(c=='-') {
+			
+			Sub sub = new Sub();
+			
+			sub.setValue(x, y);
+			sub.calculate();
+			
+		}
+		
+		else if(c=='*') {
+			
+			Mul mul = new Mul();
+			
+			mul.setValue(x, y);
+			mul.calculate();
+			
+		}
+		
+		else if(c=='/') {
+			
+			Div div = new Div();
+			
+			div.setValue(x, y);
+			div.calculate();
+			
+		}
+		else {
+			
+			System.out.print("잘못된 입력입니다.");
+			
+		}
 		
 		scann.close();
 	}

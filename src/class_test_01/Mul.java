@@ -14,4 +14,13 @@ public class Mul {
 		
 	}
 
+	public int calculate() {
+		
+		sum = x * y;
+		
+		System.out.print(sum);
+		
+		return calculate();
+	}
+	
 }
