@@ -20,7 +20,7 @@ public class Mul {
 		
 		System.out.print(sum);
 		
-		return calculate();
+		return sum;
 	}
 	
 }

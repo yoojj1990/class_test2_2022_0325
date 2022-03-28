@@ -19,7 +19,7 @@ public class Div {
 		
 		System.out.print(sum);
 		
-		return calculate();
+		return sum;
 	}
 	
 }

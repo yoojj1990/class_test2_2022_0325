@@ -2,9 +2,9 @@ package class_test_01;
 
 public class TVclass {
 	
-	String brend;
-	int year;
-	int inch;
+	private String brend;
+	private int year;
+	private int inch;
 	
 	
 	public TVclass(String brend, int year, int inch) {

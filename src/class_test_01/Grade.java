@@ -2,23 +2,23 @@ package class_test_01;
 
 public class Grade {
 	
-	int m;
-	int s;
-	int e;
+	private int math;
+	private int science;
+	private int english;
 	
 	double average;
 	
-	public Grade(int m, int s, int e ) {
+	public Grade(int math, int science, int english ) {
 		
-		this.m = m;
-		this.s = s;
-		this.e = e;
+		this.math = math;
+		this.science = science;
+		this.english = english;
 		
 	}
 	
 	public double average() {
 		
-		average = (m+s+e) / 3.0;
+		average = (math + science + english) / 3.0;
 		
 		return average;
 	}
